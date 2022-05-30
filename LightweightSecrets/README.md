@@ -1,8 +1,7 @@
 # LightweightSecrets
 A lightweight secret manager in Powershell
 
-The goal of this module is to discourage the practice of running Powershell sessions as an Administrator 
-by making it easier to import credentials that can be used to invoke scripts. The credentials are stored 
+The goal of this module is to make it easier to import credentials that can be used to invoke scripts. The credentials are stored 
 locally and encrypted, there is never a plain text version either in memory or on the disk.
 
 It is designed to be lighter weight and easier to use than the SecretManagement or SecretStore modules.
